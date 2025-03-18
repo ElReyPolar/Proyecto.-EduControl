@@ -57,12 +57,32 @@
             font-style: italic;
             color: #444;
         }
+        .galeria img {
+            width:25%;
+            height:25%;
+            margin: 20px;
+            transition: transform 0.3s;
+            border: 5px;
+            border-style: groove;
+            border-radius: 5px;
+            border-color: black;
+            display:inline;
+        }
+        .galeria img:hover {
+            transform: scale(1.2);
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>EduControl</h1>
         <p>Sea bienvenido/a a la página oficial de nuestro sistema "EduControl". Aquí usted podrá enterarse de las últimas novedades con respecto a nuestro sistema de administración escolar, así también como solicitar una demo de nuestro producto o si lo desea, la versión oficial del mismo</p>
+
+        <div class="galeria">
+            <img src="" title=""/>
+            <img src="" title="" />
+            <img src="" title="" />
+            </div>
         <div class="email-input">
             <h3>En caso de querer una versión demo del producto, a continuación adjunte su dirección e-mail y esta le llegara sin ningún costo</h3>
             <input type="email" placeholder="Su correo electrónico...">
